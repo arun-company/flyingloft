@@ -389,6 +389,8 @@
 }
 
 .footer {
+  position: relative;
+  z-index: 1000;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -568,6 +570,21 @@
   height: 50%;
   background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75));
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75));
+}
+
+.arunblock {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1001;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.arunlink {
+  text-decoration: none;
 }
 
 @media (max-width: 991px) {
